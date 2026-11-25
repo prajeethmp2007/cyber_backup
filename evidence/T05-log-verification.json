@@ -1,0 +1,12 @@
+{
+  "description": "Structured logs record backup, detection, and recovery with correlation IDs.",
+  "event_count": 6,
+  "event_types": [
+    "BACKUP_CREATED",
+    "FILE_RECOVERED",
+    "INTEGRITY_ALERT",
+    "INTEGRITY_VERIFIED"
+  ],
+  "passed": true,
+  "test_id": "T05"
+}

@@ -1,0 +1,12 @@
+{
+  "automatic_detection_triggered": false,
+  "encrypted_backup_available": false,
+  "original_sha256_observed_externally": "53a2e69097bbb99a212bd3fa717e361305114af6a2e9cf4e39da891210cdd9e1",
+  "phase": "baseline_unprotected",
+  "post_incident_sha256": "f8a938943a03ea6f333c329203294fcb202f078c2b60799f249055a6ac8758ce",
+  "recovery_possible": false,
+  "restoration_audit_log_present": false,
+  "risk_summary": "Without pre-recorded SHA-256 hashes, encrypted versioned vault storage, and verified recovery, simulated modification goes undetected and data is unrecoverable.",
+  "stored_hash_baseline_available": false,
+  "target_file": "synthetic_transcript_copy.txt"
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Controlled unexpected error returns safe sanitized HTTP 500 and logs safe event.",
+  "http_status": 500,
+  "logged_event": {
+    "actor_id": "stu_demo_001",
+    "correlation_id": "corr-t06-error",
+    "details": {
+      "action": "verify_integrity",
+      "exception_class": "RuntimeError"
+    },
+    "event_type": "UNEXPECTED_ERROR",
+    "file_id": "file_lab_001",
+    "outcome": "ERROR",
+    "student_id": null,
+    "timestamp": "2026-11-25T16:18:49.591020+00:00",
+    "version_id": null
+  },
+  "passed": true,
+  "response_body": {
+    "correlation_id": "corr-t06-error",
+    "error": {
+      "code": "INTERNAL_ERROR",
+      "message": "An unexpected internal error occurred. Reference correlation_id for support."
+    },
+    "ok": false
+  },
+  "test_id": "T06"
+}

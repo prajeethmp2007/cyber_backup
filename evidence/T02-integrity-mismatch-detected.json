@@ -1,0 +1,23 @@
+{
+  "description": "Benign modification causes SHA-256 integrity comparison to fail.",
+  "passed": true,
+  "report": {
+    "backup_blob_intact": true,
+    "check_id": "chk_bec8e6d88f8a",
+    "checked_at": "2026-11-25T16:18:49.555676+00:00",
+    "correlation_id": "corr-t02-verify",
+    "details": "Integrity mismatch: live file SHA-256 differs from known-good backup hash.",
+    "expected_encrypted_sha256": "6ee4e4a557af074751d31d8fdb62b4a5a94088f3514b8ca27ee4807858672322",
+    "expected_plaintext_sha256": "54e1e7b4b3fc4b6b8e769e2e0f6d56d6f55bd3c8d4900a5ec3896d5e9b6696cf",
+    "file_id": "file_lab_001",
+    "hash_match": false,
+    "live_file_exists": true,
+    "live_sha256": "d2efca4e9e92d74f37498419cb2de5e5bb6614762456025890aa62f159a1b0ec",
+    "observed_encrypted_sha256": "6ee4e4a557af074751d31d8fdb62b4a5a94088f3514b8ca27ee4807858672322",
+    "status": "TAMPERED_LIVE_FILE",
+    "student_id": "stu_demo_001",
+    "version_id": "ver_831f033523a5",
+    "version_number": 2
+  },
+  "test_id": "T02"
+}

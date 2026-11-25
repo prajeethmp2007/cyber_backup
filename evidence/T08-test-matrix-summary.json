@@ -1,0 +1,15 @@
+{
+  "environment_caveat": "Verified with local_vault_adapter + local_env_kek_adapter (ephemeral test KEK). Cloud Storage / Cloud KMS / Floci endpoints are abstracted behind explicitly labelled adapters and are not claimed as cloud-verified without a live sandbox smoke test.",
+  "module_owner": "Member 3 - Backup & Recovery",
+  "project": "Project 04 - Ransomware Rescue (Recover the Student Vault)",
+  "tests": {
+    "T01": true,
+    "T02": true,
+    "T03": true,
+    "T04": true,
+    "T05": true,
+    "T06": true,
+    "T07": true,
+    "T08": true
+  }
+}

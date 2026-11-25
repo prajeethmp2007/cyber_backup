@@ -1,0 +1,10 @@
+=== Infrastructure First-Run Setup Check (MindMatrix PDF 2 Sec 6) ===
+Timestamp (UTC): 2026-11-25T16:18:45+00:00
+OS: Windows 10 (AMD64)
+Python: 3.11.9
+Git: git version 2.55.0.windows.2
+Docker (optional): Docker version 29.6.2, build dfc4efb
+cryptography package: Pass (50.0.2)
+pytest package: Pass (9.1.1)
+Workspace folders present: Pass
+Evidence writable: Pass (D:\cyber_backup_project\evidence)

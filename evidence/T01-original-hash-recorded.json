@@ -1,0 +1,12 @@
+{
+  "description": "Original file SHA-256 hash recorded before modification in encrypted vault.",
+  "file_id": "file_lab_001",
+  "passed": true,
+  "storage_backend": "local_vault_adapter",
+  "test_id": "T01",
+  "v1_id": "ver_f2b1e69e9b7c",
+  "v1_plaintext_sha256": "2b2e0a578e9b68bfc07f7a742c952312aa9774bca7d03d9e871a735dc13c00ac",
+  "v2_encrypted_sha256": "6ee4e4a557af074751d31d8fdb62b4a5a94088f3514b8ca27ee4807858672322",
+  "v2_id": "ver_831f033523a5",
+  "v2_plaintext_sha256": "54e1e7b4b3fc4b6b8e769e2e0f6d56d6f55bd3c8d4900a5ec3896d5e9b6696cf"
+}

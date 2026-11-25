@@ -1,0 +1,10 @@
+{
+  "description": "Only designated sandbox file was modified/recovered; sibling untouched and traversal blocked.",
+  "passed": true,
+  "path_traversal_blocked": true,
+  "sibling_file_id": "file_sib_002",
+  "sibling_sha256_after": "72d50bdf83e2af8f4cc0c04d7c95913e4f55fa6afa89430788964f0f298ae115",
+  "sibling_sha256_before": "72d50bdf83e2af8f4cc0c04d7c95913e4f55fa6afa89430788964f0f298ae115",
+  "sibling_unchanged": true,
+  "test_id": "T04"
+}

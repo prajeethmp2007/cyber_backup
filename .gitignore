@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local environment & keys (NEVER commit secrets)
+.env
+.env.*
+.local_keys/
+*.pem
+*.key
+
+# Runtime demo/sandbox artifacts
+runtime_vault/
+runtime_sandbox/
+*.db
+*.sqlite3

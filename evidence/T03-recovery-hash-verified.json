@@ -1,0 +1,43 @@
+{
+  "description": "Recovered file matches known-good SHA-256 hash and preserves quarantine copy.",
+  "passed": true,
+  "post_recovery_verification": {
+    "backup_blob_intact": true,
+    "check_id": "chk_8763b2854efa",
+    "checked_at": "2026-11-25T16:18:49.575219+00:00",
+    "correlation_id": "corr-t03-reverify",
+    "details": "Live file SHA-256 and encrypted backup match known-good state.",
+    "expected_encrypted_sha256": "6ee4e4a557af074751d31d8fdb62b4a5a94088f3514b8ca27ee4807858672322",
+    "expected_plaintext_sha256": "54e1e7b4b3fc4b6b8e769e2e0f6d56d6f55bd3c8d4900a5ec3896d5e9b6696cf",
+    "file_id": "file_lab_001",
+    "hash_match": true,
+    "live_file_exists": true,
+    "live_sha256": "54e1e7b4b3fc4b6b8e769e2e0f6d56d6f55bd3c8d4900a5ec3896d5e9b6696cf",
+    "observed_encrypted_sha256": "6ee4e4a557af074751d31d8fdb62b4a5a94088f3514b8ca27ee4807858672322",
+    "status": "VERIFIED",
+    "student_id": "stu_demo_001",
+    "version_id": "ver_831f033523a5",
+    "version_number": 2
+  },
+  "restoration_record": {
+    "actor_id": "stu_demo_001",
+    "correlation_id": "corr-t03-recover",
+    "error_code": null,
+    "expected_known_good_sha256": "54e1e7b4b3fc4b6b8e769e2e0f6d56d6f55bd3c8d4900a5ec3896d5e9b6696cf",
+    "file_id": "file_lab_001",
+    "filename": "lab_report.txt",
+    "notes": "Restored v2 to 'lab_report.txt' and verified SHA-256.",
+    "pre_restore_live_sha256": "d2efca4e9e92d74f37498419cb2de5e5bb6614762456025890aa62f159a1b0ec",
+    "quarantine_evidence_path": "stu_demo_001/corr-t03-recover_lab_report.txt.quarantined",
+    "restoration_id": "rst_df646c1c2b73",
+    "restored_at": "2026-11-25T16:18:49.571217+00:00",
+    "restored_sha256": "54e1e7b4b3fc4b6b8e769e2e0f6d56d6f55bd3c8d4900a5ec3896d5e9b6696cf",
+    "restored_version_id": "ver_831f033523a5",
+    "restored_version_number": 2,
+    "status": "SUCCESS",
+    "student_id": "stu_demo_001",
+    "trigger_source": "ransomware_recovery",
+    "verification_passed": true
+  },
+  "test_id": "T03"
+}
